@@ -1,0 +1,20 @@
+// MDB Lightbox Init
+// $(function () {
+//   $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+//   });
+
+  $(document).ready(function(){
+    $(".fancybox").fancybox({
+          openEffect: "none",
+          closeEffect: "none"
+      });
+      
+      $(".zoom").hover(function(){
+      
+      $(this).addClass('transition');
+    }, function(){
+          
+      $(this).removeClass('transition');
+    });
+  });
+      
