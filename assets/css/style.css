@@ -1,6 +1,29 @@
-.display-1 {
+.display-1,
+footer,
+body {
   font-family: 'Bebas Neue', cursive;
+  color: rgb(167, 117, 117);
+}
+
+.logo-type {
+  height: 300px;
+  width: 300px;
+}
+
+#header #logo img {
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+font-family: futura-pt, sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+
+.nav-link {
   color: #000;
+  text-decoration-color: #000;
 }
 
 body {
